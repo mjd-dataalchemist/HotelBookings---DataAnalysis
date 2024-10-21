@@ -1,4 +1,4 @@
-# Proyecto de Análisis de Datos de Reservas Hoteleras
+# Proyecto de Análisis de Datos de Reservas de Hoteles
 
 ## Descripción del Proyecto
 Este proyecto se centra en el análisis de datos del dataset `hotel_bookings.csv`, proporcionando insights valiosos a través de un riguroso proceso de análisis y visualización.
