@@ -47,4 +47,4 @@ Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo `LICEN
 
 ---
 
-¡Esperamos que este proyecto proporcione insights valiosos y fomente un mayor entendimiento de los patrones en las reservas hoteleras!
+¡Esperamos que este proyecto proporcione insights valiosos y fomente un mayor entendimiento de los patrones en las reservas de Hoteles!
