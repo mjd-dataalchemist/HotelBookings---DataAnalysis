@@ -39,11 +39,12 @@ Additionally, Power Query was used to optimize the data transformation process.
 ## Dashboard Design and Development
 The interactive dashboard was designed and developed in Power BI, using advanced techniques such as:
 - **Bookmarks**
-- **Calculation Groups**
 - **Field Parameters**
-- **DAX for creating measures**
+- **Calculation Groups**
+- **DAX for creating advanced measures**
 ![Dashboard](images/dashboard.png)
 ![Dashboard_Menu](images/dashboard_menu.png)
+![Slicer_Measure](images/dashboard_measure_slicer.png)
 
 This approach provides a dynamic and detailed visualization of the data, allowing users analyze the information interactively.
 
