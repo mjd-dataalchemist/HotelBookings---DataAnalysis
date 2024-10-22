@@ -24,7 +24,12 @@ Basado en el análisis de EDA, se ha diseñado un diagrama conceptual que facili
 ## Creación de Tablas
 Se han creado varias tablas para estructurar los datos de manera eficiente:
 - **Tablas de Dimensión**: Usando Python para definir las dimensiones clave.
+![Python - Dim Table](images/dim_python_1.png) 
+![Python - Dim Table](images/dim_python_2.png) 
+
+
 - **Tabla de Hechos**: Creada con Talend para centralizar los datos relevantes.
+![Talend - Fact Table](images/talend_fact.png) 
 
 ## Implementación del Esquema Estrella
 El esquema estrella se ha implementado en dos plataformas:
