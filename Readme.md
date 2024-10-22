@@ -23,6 +23,7 @@ Basado en el análisis de EDA, se ha diseñado un diagrama conceptual que facili
 
 ## Creación de Tablas
 Se han creado varias tablas para estructurar los datos de manera eficiente:
+
 - **Tablas de Dimensión**: Usando Python para definir las dimensiones clave.
 ![Python - Dim Table](images/dim_python_1.png) 
 ![Python - Dim Table](images/dim_python_2.png) 
