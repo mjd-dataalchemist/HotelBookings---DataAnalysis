@@ -24,10 +24,10 @@ Once on the EDA was completed, a conceptual diagram was designed to facilitate u
 
 ## Table Creation
 Several tables were created to efficiently structure the data:
-- **Dimension Tables**: Using Python to define key dimensions.
+- **Dimension Tables**: Using Python to extract and define dimensions.
   ![Python - Dim Table](images/dim_python_1.png) 
   ![Python - Dim Table](images/dim_python_2.png) 
-- **Fact Table**: Created with Talend to centralize relevant data.
+- **Fact Table**: Created with Talend to join dimensions and load fact table.
   ![Talend - Fact Table](images/talend_fact.png) 
 
 ## Star Schema Implementation
