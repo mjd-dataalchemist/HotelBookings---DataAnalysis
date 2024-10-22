@@ -14,8 +14,6 @@ This project focuses on the analysis of the `HotelBookingDemandDatasets.pdf` art
 ## PDF Analysis
 The detailed analysis of the `HotelBookingDemandDatasets.pdf` article can be found [here](HotelBookingDemandDatasets.pdf).
 
-![PDF Analysis](images/pdf_analysis.png)
-
 ## Exploratory Data Analysis (EDA)
 The EDA was conducted in Python, analyzing the variables present in the `hotel_bookings.csv` dataset. This initial analysis helps identify patterns and prepare the data for further modeling.
 ![EDA](images/correlation-matrix.png)
