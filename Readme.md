@@ -44,7 +44,7 @@ The interactive dashboard was designed and developed in Power BI, using advanced
 - **DAX for creating measures**
 ![Dashboard](images/dashboard.png)
 
-This approach provides a dynamic and detailed visualization of the data, allowing users to interactively analyze the information interactively.
+This approach provides a dynamic and detailed visualization of the data, allowing users analyze the information interactively.
 
 ---
 
