@@ -1,4 +1,4 @@
-# Proyecto de Análisis de Datos de Reservas de Hoteles
+# Análisis de Datos de Reservas de Hoteles
 
 ## Descripción del Proyecto
 Este proyecto se centra en el análisis de datos del dataset `hotel_bookings.csv`, proporcionando insights valiosos a través de un riguroso proceso de análisis y visualización.
@@ -40,10 +40,11 @@ Además, se ha desarrollado en Power Query para optimizar el proceso de transfor
 
 ## Diseño y Desarrollo del Dashboard
 El dashboard se ha diseñado y desarrollado en Power BI, utilizando técnicas avanzadas como:
-- **Bookmarks**
+- **DAX para crear medidas**
 - **Calculation Groups**
 - **Field Parameters**
-- **DAX para crear medidas**
+- **Bookmarks**
+
 
 ![Dashboard](images/dashboard.png)
 
@@ -51,4 +52,4 @@ Este enfoque proporciona una visualización dinámica y detallada de los datos, 
 
 ---
 
-¡Esperamos que este proyecto proporcione insights valiosos y fomente un mayor entendimiento de los patrones en las reservas de Hoteles!
+¡Espero que este proyecto proporcione insights valiosos y aporte un mayor entendimiento de los patrones en las reservas de Hoteles!
