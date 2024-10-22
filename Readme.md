@@ -1,55 +1,53 @@
-# Análisis de Datos Demanda de Reservas de Hotel
+# Hotel Bookings Data Analysis
 
-## Descripción del Proyecto
-Este proyecto se centra en el análisis de datos del artículo 'HotelBookingDemandDatasets.pdf', a partir del dataset `hotel_bookings.csv`, proporcionando insights valiosos a través de un riguroso proceso de análisis y visualización.
+## Project Description
+This project focuses on the analysis of the `HotelBookingDemandDatasets.pdf` article and the `hotel_bookings.csv` dataset, providing valuable information through a rigorous analysis and visualization process.
 
-## Contenidos
+## Contents
+1. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+2. [Conceptual Diagram Design](#conceptual-diagram-design)
+3. [Table Creation](#table-creation)
+4. [Star Schema Implementation](#star-schema-implementation)
+5. [Dashboard Design and Development](#dashboard-design-and-development)
+6. [PDF Analysis](#pdf-analysis)
 
-1. [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-eda)
-2. [Diseño del Diagrama Conceptual](#diseño-del-diagrama-conceptual)
-3. [Creación de Tablas](#creación-de-tablas)
-4. [Implementación del Esquema Estrella](#implementación-del-esquema-estrella)
-5. [Diseño y Desarrollo del Dashboard](#diseño-y-desarrollo-del-dashboard)
+## PDF Analysis
+The detailed analysis of the `HotelBookingDemandDatasets.pdf` article can be found [here](HotelBookingDemandDatasets.pdf).
 
-## Análisis Exploratorio de Datos (EDA)
-El EDA se ha realizado en Python, analizando las variables presentes en el dataset `hotel_bookings.csv`. Este análisis inicial permite identificar patrones y preparar los datos para su posterior modelado.
+![PDF Analysis](images/pdf_analysis.png)
 
+## Exploratory Data Analysis (EDA)
+The EDA was conducted in Python, analyzing the variables present in the `hotel_bookings.csv` dataset. This initial analysis helps identify patterns and prepare the data for further modeling.
 ![EDA](images/correlation-matrix.png)
 
-## Diseño del Diagrama Conceptual
-Basado en el análisis de EDA, se ha diseñado un diagrama conceptual que facilita la comprensión y organización de las relaciones entre las diferentes entidades del dataset.
+## Conceptual Diagram Design
+Based on the EDA analysis, a conceptual diagram was designed to facilitate understanding and organizing the relationships between different entities in the dataset.
+![Conceptual Diagram](images/conceptual_model.png)
 
-![Diagrama Conceptual](images/conceptual_model.png)
+## Table Creation
+Several tables were created to efficiently structure the data:
+- **Dimension Tables**: Using Python to define key dimensions.
+  ![Python - Dim Table](images/dim_python_1.png) 
+  ![Python - Dim Table](images/dim_python_2.png) 
+- **Fact Table**: Created with Talend to centralize relevant data.
+  ![Talend - Fact Table](images/talend_fact.png) 
 
-## Creación de Tablas
-Se han creado varias tablas para estructurar los datos de manera eficiente:
+## Star Schema Implementation
+The star schema was implemented on two platforms:
+- **Microsoft SQL Server Database**: For data storage and management.
+- **Power BI**: For reporting and dashboard creation.
+Additionally, Power Query was used to optimize the data transformation process.
 
-- **Tablas de Dimensión**: Usando Python para definir las dimensiones clave.
-![Python - Dim Table](images/dim_python_1.png) 
-![Python - Dim Table](images/dim_python_2.png) 
-
-
-- **Tabla de Hechos**: Creada con Talend para centralizar los datos relevantes.
-![Talend - Fact Table](images/talend_fact.png) 
-
-## Implementación del Esquema Estrella
-El esquema estrella se ha implementado en dos plataformas:
-- **Base de Datos de Microsoft SQL Server**: Para almacenamiento y gestión de datos.
-- **Power BI**: Para la creación de reportes y dashboards.
-Además, se ha desarrollado en Power Query para optimizar el proceso de transformación de datos.
-
-## Diseño y Desarrollo del Dashboard
-El dashboard se ha diseñado y desarrollado en Power BI, utilizando técnicas avanzadas como:
-- **DAX para crear medidas**
+## Dashboard Design and Development
+The dashboard was designed and developed in Power BI, using advanced techniques such as:
+- **Bookmarks**
 - **Calculation Groups**
 - **Field Parameters**
-- **Bookmarks**
-
-
+- **DAX for creating measures**
 ![Dashboard](images/dashboard.png)
 
-Este enfoque proporciona una visualización dinámica y detallada de los datos, permitiendo a los usuarios explorar y analizar la información de manera interactiva.
+This approach provides a dynamic and detailed visualization of the data, allowing users to explore and analyze the information interactively.
 
 ---
 
-¡Espero que este proyecto proporcione insights valiosos y aporte un mayor entendimiento de los patrones en las reservas de Hoteles!
+I hope this project provides valuable insights and fosters a deeper understanding of patterns in hotel bookings!
