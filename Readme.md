@@ -14,6 +14,8 @@ Este proyecto se centra en el análisis de datos del dataset `hotel_bookings.csv
 ## Análisis Exploratorio de Datos (EDA)
 El EDA se ha realizado en Python, analizando las variables presentes en el dataset `hotel_bookings.csv`. Este análisis inicial permite identificar patrones y preparar los datos para su posterior modelado.
 
+![EDA](images/correlation-matrix.png)
+
 ## Diseño del Diagrama Conceptual
 Basado en el análisis de EDA, se ha diseñado un diagrama conceptual que facilita la comprensión y organización de las relaciones entre las diferentes entidades del dataset.
 
@@ -37,13 +39,9 @@ El dashboard se ha diseñado y desarrollado en Power BI, utilizando técnicas av
 - **Field Parameters**
 - **DAX para crear medidas**
 
+![Dashboard](images/dashboard.png)
+
 Este enfoque proporciona una visualización dinámica y detallada de los datos, permitiendo a los usuarios explorar y analizar la información de manera interactiva.
-
-## Contribuciones
-Las contribuciones son bienvenidas. Por favor, sigue las pautas establecidas en `CONTRIBUTING.md` para más detalles.
-
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo `LICENSE` para más detalles.
 
 ---
 
